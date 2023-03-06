@@ -132,7 +132,7 @@ export const SocialMedias= styled.div`
         color: #999999;
         width: 1.5rem;
         height: 1.125rem;
-        padding: 0.8rem;
+        padding: 0.6rem;
     
         @media screen and (max-width: 680px) {
             margin-top: 4-5rem;

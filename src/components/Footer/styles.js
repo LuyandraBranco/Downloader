@@ -7,7 +7,6 @@ export const ContainerDiv = styled.footer`
     display: flex;
     margin:0 auto;
     overflow-x:none;
-
     margin-top:1rem;
 
     @media screen and (max-width: 680px) {

@@ -43,9 +43,9 @@ export const Logo = styled.a`
     margin-top:0.8rem;
     cursor:pointer;
     
-    @media screen and (max-width: 680px) {
+    @media screen and (max-width: 780px) {
         font-size:1.5rem;
-        margin-top:0.9rem;
+        margin-top:1rem;
     }
 
 `;
