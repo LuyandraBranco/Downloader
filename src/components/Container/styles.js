@@ -71,6 +71,7 @@ export const Buttons = styled.div`
     width:100%;
     height:18rem;
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
 
@@ -87,8 +88,7 @@ export const Button1 = styled.button`
 
     width:11rem;
     height:11rem;
-    position: absolute;
-    top: 16.3125rem;
+    margin-top:1rem;
     border-radius:50%;
     border:none;
     background:linear-gradient(211.43deg, #AFB2C9 13.37%, #9296BA 86.17%);
@@ -103,8 +103,7 @@ export const Button2 = styled.button`
 
     width:8.8rem;
     height:8.8rem;
-    position: absolute;
-    top: 17.4125rem;
+    margin-top: -10.010rem;
     border-radius:50%;
     border:none;
     background:linear-gradient(213.45deg, #595F8C 12.72%, #74799C 85.38%);
@@ -119,8 +118,7 @@ export const Button3 = styled.button`
 
     width:6.6rem;
     height:6.6rem;
-    position: absolute;
-    top: 18.5125rem;
+    margin-top: -7.71rem;
     border-radius:50%;
     border:none;
     background:linear-gradient(212.59deg, #656777 13.18%, #2D3047 86.22%);

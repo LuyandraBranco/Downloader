@@ -24,7 +24,6 @@ export const Navbar = styled.nav`
 
     @media screen and (max-width: 680px) {
         height: 3.5rem;
-        overflow-x:hidden;
     }
     @media screen and (max-width: 780px) {
         height: 4.5rem;
@@ -45,7 +44,7 @@ export const Logo = styled.a`
     
     @media screen and (max-width: 780px) {
         font-size:1.5rem;
-        margin-top:1rem;
+        margin-top:1.3rem;
     }
 
 `;
@@ -55,9 +54,6 @@ export const NavLinks = styled.ul`
     display:flex;
     list-style:none;
 
-    @media screen and (max-width: 680px) {
-       display:none;
-    }
     @media screen and (max-width: 780px) {
        display:none;
     }
@@ -85,11 +81,7 @@ export const Link = styled.a`
     width: 1.8rem;
     height: 1.5rem;
     margin-right:5rem;
-
-    @media screen and (max-width: 780px) {
-        
-    }
-}
+  }
 
 `;
 
