@@ -63,7 +63,7 @@ export const Subtitle = styled.p`
     text-align:center;
     margin:0;
     font-style: normal;
-
+ 
 `;
 
 export const Buttons = styled.div`
@@ -75,9 +75,10 @@ export const Buttons = styled.div`
     align-items:center;
 
     @media screen and (max-width: 680px) {
+        
     }
     @media screen and (max-width: 780px) {
-        
+       
     }
 
 `;
@@ -92,6 +93,10 @@ export const Button1 = styled.button`
     border:none;
     background:linear-gradient(211.43deg, #AFB2C9 13.37%, #9296BA 86.17%);
 
+    @media screen and (max-width: 780px) {
+        top: 14.3125rem;
+    }
+
 `;
 
 export const Button2 = styled.button`
@@ -104,6 +109,10 @@ export const Button2 = styled.button`
     border:none;
     background:linear-gradient(213.45deg, #595F8C 12.72%, #74799C 85.38%);
 
+    @media screen and (max-width: 780px) {
+        top: 15.4125rem;
+    }
+
 `;
 
 export const Button3 = styled.button`
@@ -115,6 +124,10 @@ export const Button3 = styled.button`
     border-radius:50%;
     border:none;
     background:linear-gradient(212.59deg, #656777 13.18%, #2D3047 86.22%);
+
+    @media screen and (max-width: 780px) {
+        top: 16.5125rem;
+    }
 
 `;
 
@@ -135,14 +148,12 @@ export const SocialMedias= styled.div`
         padding: 0.6rem;
     
         @media screen and (max-width: 680px) {
-            margin-top: 4-5rem;
-            
+            margin-top: 2.9rem;       
         }
         @media screen and (max-width: 780px) {
-            margin-top: 5rem;
-            
+            margin-top: 3rem;   
         }
-
+    }
 `;
 
 
