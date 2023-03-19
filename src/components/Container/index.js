@@ -21,22 +21,17 @@ export function Container() {
 
             <Buttons>
                 <Button1>
-
+                    <Button2>
+                        <Button3>
+                        </Button3>
+                    </Button2>
                 </Button1>
-
-                <Button2>
-
-                </Button2>
-
-                <Button3>
-
-                </Button3>
             </Buttons>
 
             <SocialMedias>
-                <FaYoutube/>
-                <FaInstagram/>
-                <FaTwitter/>
+                <FaYoutube />
+                <FaInstagram />
+                <FaTwitter />
             </SocialMedias>
         </ContainerDiv>
 

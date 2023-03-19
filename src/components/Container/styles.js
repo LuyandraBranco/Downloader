@@ -26,11 +26,11 @@ export const ContainerDiv = styled.section`
 
     @media screen and (max-width: 680px) {
         width: 100%;
-        height: 25rem;
+        height: 27rem;
     }
     @media screen and (max-width: 780px) {
         width: 100%;
-        height: 26rem;
+        height: 28rem;
         margin-top:1rem;
     }
 
@@ -74,6 +74,7 @@ export const Buttons = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    margin-top:0.5rem;
 
     @media screen and (max-width: 680px) {
         
@@ -88,13 +89,12 @@ export const Button1 = styled.button`
 
     width:11rem;
     height:11rem;
-    margin-top:1rem;
     border-radius:50%;
     border:none;
     background:linear-gradient(211.43deg, #AFB2C9 13.37%, #9296BA 86.17%);
 
     @media screen and (max-width: 780px) {
-        top: 14.3125rem;
+        
     }
 
 `;
@@ -103,7 +103,6 @@ export const Button2 = styled.button`
 
     width:8.8rem;
     height:8.8rem;
-    margin-top: -10.010rem;
     border-radius:50%;
     border:none;
     background:linear-gradient(213.45deg, #595F8C 12.72%, #74799C 85.38%);
@@ -118,13 +117,20 @@ export const Button3 = styled.button`
 
     width:6.6rem;
     height:6.6rem;
-    margin-top: -7.71rem;
     border-radius:50%;
     border:none;
     background:linear-gradient(212.59deg, #656777 13.18%, #2D3047 86.22%);
 
     @media screen and (max-width: 780px) {
         top: 16.5125rem;
+    }
+
+    &:hover{
+        width:7.2rem;
+        height:7.2rem;
+    }
+    &.Button2:hover {
+        background-color: #eee;
     }
 
 `;
@@ -136,26 +142,20 @@ export const SocialMedias= styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1.5rem;
 
     > svg{
         color: #999999;
         width: 1.5rem;
         height: 1.125rem;
-        padding: 0.6rem;
+        padding: 0.5rem;
     
         @media screen and (max-width: 680px) {
-            margin-top: 2.9rem;       
+            margin-top: 1.9rem;       
         }
         @media screen and (max-width: 780px) {
-            margin-top: 3rem;   
+            margin-top: 2rem;   
         }
     }
 `;
-
-
-
-
-
-
