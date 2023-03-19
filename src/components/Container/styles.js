@@ -106,9 +106,19 @@ export const Button2 = styled.button`
     border-radius:50%;
     border:none;
     background:linear-gradient(213.45deg, #595F8C 12.72%, #74799C 85.38%);
+    transition: all 0.2s ease-in-out;
 
     @media screen and (max-width: 780px) {
         top: 15.4125rem;
+    }
+
+    
+    &:hover{
+        transform: scale(1.13);
+        
+        + ${Button1} {
+            transform: scale(1.13);
+        }
     }
 
 `;
@@ -120,19 +130,20 @@ export const Button3 = styled.button`
     border-radius:50%;
     border:none;
     background:linear-gradient(212.59deg, #656777 13.18%, #2D3047 86.22%);
+    transition: all 0.18s ease-in-out;
 
     @media screen and (max-width: 780px) {
         top: 16.5125rem;
     }
 
     &:hover{
-        width:7.2rem;
-        height:7.2rem;
-    }
-    &.Button2:hover {
-        background-color: #eee;
-    }
+        transform: scale(1.2);
 
+        + ${Button2} {
+            transform: scale(1.13);
+        }
+    }
+    
 `;
 
 export const SocialMedias= styled.div`
